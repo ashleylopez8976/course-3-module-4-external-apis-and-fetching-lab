@@ -77,3 +77,12 @@ h1 {
   width: 50px;
   height: 50px;
 }
+
+#error-message:not(.hidden) {
+  color: #991b1b;
+  background-color: #fee2e2;
+  border: 1px solid #fca5a5;
+  border-radius: 6px;
+  padding: 12px;
+  margin-top: 16px;
+}
